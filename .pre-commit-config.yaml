@@ -1,0 +1,17 @@
+repos:
+- repo: https://github.com/antonbabenko/pre-commit-terraform.git
+  rev: v1.77.1 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
+  hooks:
+    - id: terraform_tflint
+      args:
+        - --args=--module
+        - --args=--config=.tflint.hcl
+    - id: terraform_validate
+    - id: terraform_docs
+      args:
+        - --hook-config=--add-to-existing-file=true
+        - --hook-config=--create-file-if-not-exist=true
+        - --args=--config=.terraform-docs.yml
+    - id: terraform_fmt
+    - id: terraform_tfsec
+    # - id: terraform_checkov
