@@ -35,6 +35,20 @@ repositories = [
     repository_collaborators = []
   },
   {
+    name                     = "typescript-the-complete-developers-guide"
+    description              = "A project that contains notes and hands-on labs related to TypeScript."
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
+  },
+  {
+    name                     = "Docker-K8s-Complete-Guide"
+    description              = "A project that contains notes and hands-on labs related to Docker, Kubernetes, Helm, etc.."
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
+  },
+  {
     name                     = "blue-green-kubernetes"
     description              = "A demonstration of how you can utilize blue-green deployments in Kubernetes."
     visibility               = "private"
@@ -399,13 +413,6 @@ repositories = [
     repository_collaborators = []
   },
   {
-    name                     = "Docker-K8s-Complete-Guide"
-    description              = ""
-    visibility               = "private"
-    vulnerability_alerts     = false
-    repository_collaborators = []
-  },
-  {
     name                     = "multi-docker"
     description              = ""
     visibility               = "private"
@@ -659,13 +666,6 @@ repositories = [
   },
   {
     name                     = "Simple-DevOps-Project"
-    description              = ""
-    visibility               = "private"
-    vulnerability_alerts     = false
-    repository_collaborators = []
-  },
-  {
-    name                     = "typescript-the-complete-developers-guide"
     description              = ""
     visibility               = "private"
     vulnerability_alerts     = false
