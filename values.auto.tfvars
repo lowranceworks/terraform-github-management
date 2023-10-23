@@ -1,623 +1,689 @@
 repositories = [
   {
-    name                 = "macbook_config"
-    description          = "Easily backup/restore your MacBook configurations using Ansible."
-    vulnerability_alerts = false
+    name                     = "terraform-github-management"
+    description              = "A project to manage Github resources using Terraform."
+    visibility               = "public"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "clone-repositories"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "macbook_config"
+    description              = "A project that enables people to easily backup/restore MacBook configurations using Ansible."
+    visibility               = "public"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "Learning"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "clone-repositories"
+    description              = "A script to clone all of your remote repositories from Github."
+    visibility               = "public"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "flash-arbitrage-bot"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "portfolio"
+    description              = "A website that showcases my best work, personality and talents"
+    visibility               = "public"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "npd-gcp-host-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Learning"
+    description              = "A project to be used for experimenting with different technologies."
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "devops-gcp-host-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "blue-green-kubernetes"
+    description              = "A demonstration of how you can utilize blue-green deployments in Kubernetes."
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "prd-gcp-service-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "config"
+    description              = "A project that enables people to easily backup/restore Linux configurations using Ansible."
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "prd-gcp-host-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "flash-arbitrage-bot"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "devops-gcp-service-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "SaaSery-applications-landing-page"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "prd-gcp-GKE-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "coinScoutPro"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "npd-gcp-GKE-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "ansible-roles"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "npd-gcp-service-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "learn-go"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "devops-gcp-GKE-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "scrape-donna-bella-hair"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "SaaSery-applications-landing-page"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "argocd-kind-sandbox"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "coinScoutPro"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "learning_chalice"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "test"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "api.create_jira_ticket"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "ansible-roles"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "the-modern-python-3-bootcamp"
+    description              = "A project that contains notes and hands-on labs related to Python."
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "learn-go"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "terraform-ansible-docker"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "scrape-donna-bella-hair"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "aws-terraform-demo"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "argocd-kind-sandbox"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "aws-terraform-blue-green"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "learning_chalice"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "go-api-tutorial"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "api.create_jira_ticket"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "flash-arbitrage-bot"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "the-modern-python-3-bootcamp"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "npd-gcp-host-project-infrastructure"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "terraform-ansible-docker"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "devops-gcp-host-project-infrastructure"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "portfolio"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "prd-gcp-service-project-infrastructure"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "blue-green-kubernetes"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "prd-gcp-host-project-infrastructure"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "config"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "devops-gcp-service-project-infrastructure"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "aws-terraform-demo"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "prd-gcp-GKE-infrastructure"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "aws-terraform-blue-green"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "npd-gcp-GKE-infrastructure"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "go-api-tutorial"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "npd-gcp-service-project-infrastructure"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "terraform-github-management"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "devops-gcp-GKE-infrastructure"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "clone-repositories"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "SaaSery-applications-landing-page"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "Learning"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "coinScoutPro"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "flash-arbitrage-bot"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "ansible-roles"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "npd-gcp-host-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "learn-go"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "devops-gcp-host-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "scrape-donna-bella-hair"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "prd-gcp-service-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "argocd-kind-sandbox"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "prd-gcp-host-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "learning_chalice"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "devops-gcp-service-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "api.create_jira_ticket"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "prd-gcp-GKE-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "terraform-ansible-docker"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "npd-gcp-GKE-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "aws-terraform-demo"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "npd-gcp-service-project-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "aws-terraform-blue-green"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "devops-gcp-GKE-infrastructure"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "docker-python-test"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "SaaSery-applications-landing-page"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "building-and-running-applications"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "coinScoutPro"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "resume"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "test"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "nextcloud"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "ansible-roles"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Docker-Certified-Associate-DCA-Exam-Guide"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "learn-go"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "rsbot"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "scrape-donna-bella-hair"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "GoCasts"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "argocd-kind-sandbox"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "NumberGuesser"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "learning_chalice"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "wpf-mvvm-password-box"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "api.create_jira_ticket"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "bitbucket-github-setup"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "the-modern-python-3-bootcamp"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "AWS-HA"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "terraform-ansible-docker"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "GCP-Terraform"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "portfolio"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "jenkins_zero_to_hero"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "blue-green-kubernetes"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "python-scripting-for-system-administrators"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "config"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "intro-to-python-scripting"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "aws-terraform-demo"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Docker-K8s-Complete-Guide"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "aws-terraform-blue-green"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "multi-docker"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "go-api-tutorial"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "aws_ecs_fargate_demo"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "docker-python-test"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "AWS_ECS_FARGATE-Dev"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "building-and-running-applications"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "aws-health-tools"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "resume"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Dockerize-Python"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "nextcloud"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "jenkins"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "Docker-Certified-Associate-DCA-Exam-Guide"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Master_DevOps"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "rsbot"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "docker_elastic"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "ansible-setup"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "AWS_HA_ECS-Dev"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "GoCasts"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Master_Terraform"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "NumberGuesser"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "AWS-HA-ECS"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "wpf-mvvm-password-box"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "IBM-IAC"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "bitbucket-github-setup"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "TransactionProcessor-CDK"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "VisualStudioCode"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "pipeline-project"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "tsconfig.json"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "TransactionProcessor"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "Prometheus"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "ContainerPipeline"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "AWS-HA-CTsuite"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "simpleAPI"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "GCP-Terraform"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "LambdaPipeline-CDK"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "ct-jenkins"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "CDK-MyWidgetService"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "jenkins_zero_to_hero"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "CDK-MyEcsConstruct"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "jenkins_zero_to_hero_2"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Microservices_Python_AWS"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "python-scripting-for-system-administrators"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "TransactionProcessor-CDK-Python"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "intro-to-python-scripting"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "cut_fst"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "Docker-K8s-Complete-Guide"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "cdk-pipelines-demo"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "multi-docker"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "WordPress_Automated"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "aws_ecs_fargate_demo"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "django_resume"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "AWS_ECS_FARGATE-Dev"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Course_Introduction_to_Ansible"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "aws-health-tools"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "WordPress-Site"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "Dockerize-Python"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "project-based-learning"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "jenkins"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "PowerShell"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "Master_DevOps"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Windows-Server-Administration-PowerShell"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "docker_elastic"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Ansible-for-Windows-System-Administration"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "AWS_HA_ECS-Dev"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Azure-DevOps-Kuberneres-Terraform"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "Master_Terraform"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "devops-master-class"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "AWS-HA-ECS"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "hello-world"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "IBM-IAC"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "hands_on_linux-self_hosted_wordpress_for_linux_beginners"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "TransactionProcessor-CDK"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "Simple-DevOps-Project"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "pipeline-project"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "typescript-the-complete-developers-guide"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "PoshLocker-CDK"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "pipelines-dotnet-core-docker"
+    description              = ""
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
   {
-    name                 = "TransactionProcessor"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "ContainerPipeline"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "simpleAPI"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "LambdaPipeline-CDK"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "CDK-MyWidgetService"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "CDK-MyEcsConstruct"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "Microservices_Python_AWS"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "TransactionProcessor-CDK-Python"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "auto_tag_sev5s"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "cut_fst"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "cdk-pipelines-demo"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "WordPress_Automated"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "django_resume"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "Course_Introduction_to_Ansible"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "WordPress-Site"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "project-based-learning"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "PowerShell"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "Windows-Server-Administration-PowerShell"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "Ansible-for-Windows-System-Administration"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "Azure-DevOps-Kuberneres-Terraform"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "devops-master-class"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "hello-world"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "hands_on_linux-self_hosted_wordpress_for_linux_beginners"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "Simple-DevOps-Project"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "typescript-the-complete-developers-guide"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "pipelines-dotnet-core-docker"
-    description          = ""
-    vulnerability_alerts = false
-  },
-  {
-    name                 = "dotfiles"
-    description          = ""
-    vulnerability_alerts = false
+    name                     = "dotfiles"
+    description              = "A forked project from a DevOps mentor."
+    visibility               = "private"
+    vulnerability_alerts     = false
+    repository_collaborators = []
   },
 
 ]

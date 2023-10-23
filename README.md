@@ -16,6 +16,5 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_repositories"></a> [repositories](#input\_repositories) | n/a | <pre>set(object({<br>    name                 = string<br>    description          = string<br>    vulnerability_alerts = bool<br>  }))</pre> | `[]` | no |
-| <a name="input_visibility"></a> [visibility](#input\_visibility) | n/a | `string` | `"private"` | no |
+| <a name="input_repositories"></a> [repositories](#input\_repositories) | n/a | <pre>set(object({<br>    name                 = string<br>    description          = string<br>    visibility           = string<br>    vulnerability_alerts = bool<br>    repository_collaborators = list(object({<br>      username = string<br>    }))<br>  }))</pre> | `[]` | no |
 <!-- END_TF_DOCS -->
