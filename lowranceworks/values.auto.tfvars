@@ -43,7 +43,7 @@ repositories = [
   },
   {
     name                     = "Docker-K8s-Complete-Guide"
-    description              = "A project that contains notes and hands-on labs related to Docker, Kubernetes, Helm, etc.."
+    description              = "A project that contains notes and hands-on labs related to ."
     visibility               = "private"
     vulnerability_alerts     = false
     repository_collaborators = []
@@ -56,8 +56,8 @@ repositories = [
     repository_collaborators = []
   },
   {
-    name                     = "config"
-    description              = "A project that enables people to easily backup/restore Linux configurations using Ansible."
+    name                     = "linux_config"
+    description              = "A project that enables people to easily restore Linux configurations using Ansible."
     visibility               = "private"
     vulnerability_alerts     = false
     repository_collaborators = []
