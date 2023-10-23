@@ -1,6 +1,9 @@
-resource "github_repository" "this" {
-  for_each    = var.repositories
-  name        = each.value
+module "github_repository" {
+  source = "git::https://github.com/ksatirli/terraform-github-repository.git?ref=4.1.0"
+  for_each = { for repo in var.repositories : repo.name => repo }
 
-  visibility = var.visibility
+  name                  = each.key
+  visibility            = var.visibility
+  has_issues            = false
+  vulnerability_alerts  = each.value.vulnerability_alerts
 }

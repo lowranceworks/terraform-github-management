@@ -1,5 +1,8 @@
 variable repositories {
-  type        = set(string)
+  type        = set(object({
+    name = string
+    vulnerability_alerts = bool
+  }))
   default     = []
 }
 
